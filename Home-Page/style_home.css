@@ -9,7 +9,7 @@ body{
   position: absolute;
   height: 86.4%;
   width: 390px;
-  overflow: scroll;
+  overflow-y: scroll;
   overflow-x: hidden;
   scrollbar-width: none;
   -ms-overflow-style: none;
@@ -171,7 +171,7 @@ body{
   height: 50px;
   top: 0;
   left: 0;
-  background-image: url(./img/mask-group.png);
+  background-image: url(img/mask-group.png);
   background-size: 100% 100%;
 }
 
@@ -290,7 +290,7 @@ body{
   left: 0;
   border-radius: 18px;
   box-shadow: 0px 4px 4px #00000040;
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 60%),url(img/frame\ 9.png);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 60%),url(img/frame-9.png);
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -306,7 +306,7 @@ body{
   left: 196px;
   border-radius: 18px;
   box-shadow: 0px 4px 4px #00000040;
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 60%),url(img/frame\ 34.png);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 60%),url(img/frame-34.png);
   background-size: cover;
   background-position: 50% 50%;
 }
