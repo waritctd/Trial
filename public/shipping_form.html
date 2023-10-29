@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Shipping/style_shipping.css">
+    <title>Document</title>
+    <script src="Shipping/shipping.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="top">
+                <button class="back" id="backButton">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M21 12.0521L3 12.0521" stroke="#151313" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M9 6.32422L3 12.0521L9 17.78" stroke="#151313" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </button> 
+            </div>
+            <div id="registration-form" class="form">
+                    <h2>Delivery Address</h2>
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="address">Your Address</label>
+                    <input type="address" id="address" name="address" required>
+                    <label for="tel">Your Telephone Number</label>
+                    <input type="tel" id="tel" name="tel" required>
+                    <button type="submit" onclick="submit()">Submit</button>
+                </div>
+            </div>
+    </div>
+</body>
+<script src="Shipping/back.js"></script>
+</html>

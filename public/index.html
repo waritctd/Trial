@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0-beta2/css/all.min.css" integrity="sha384-NEW-INTEGRITY-VALUE" crossorigin="anonymous">
+  <link rel="stylesheet" href="Home-Page/globals.css" />
+  <link rel="stylesheet" href="Home-Page/style_home.css" />
+  <script src="Authentication/authentication.js"></script>
+  <script src="Home-Page/location.js"></script>
+</head>
+<body onload="isSignIn()">
+  <div class="extra">
+    <div class="main">  
+      <div class="status-bar">
+        <div class="battery">
+          <div class="battery_outline"><div class="battery_capacity"></div></div>
+        </div>
+        <img class="wifi" src="Home-Page/img/wifi.svg" />
+        <img class="cellular-connection" src="Home-Page/img/cellular-connection.svg" />
+        <div class="time">9:41</div>
+      </div>
+      <div class="top-bar">
+        <div class="group"></div>
+        <a href="summary.html"> <img src="Home-Page/img/shopping-cart-icon.png" class="shopping-cart-icon"> </a>
+        <div class="delivery_container">
+          <div class="delivery_info">
+            <div class="delivery_label" color="Black">Deliver to</div>
+            <a href="shipping_form.html"><div class="delivery_location" id="locationText">Your Location ▼</div></a>
+          </div>
+          <img class="icon-edit" src="Home-Page/img/icon-edit.svg" />
+        </div>          
+      </div>
+      <div class="search-bar">
+        <img src="Home-Page/img/frame-24.svg" />
+        <p class="text-wrapper">What are you craving for?</p>
+        <img class="filter" src="Home-Page/img/filter.svg" />
+      </div>
+      <p class="quote">
+        <span style="color: black;">Explore the </span>
+        <span style="color: #fc9536"> new</span>
+        <span style="color: black;">, <br />find the </span>
+        <span style="color: #fc9536"> extraordinary</span>
+      </p>
+      <div class="your_favorite_wrapper">Your Favorites</div>
+      <div class="restaurant-list" id="restaurant-list">
+      </div>
+    </div>
+    <div class="navigation">
+    <div class="nav">
+      <ul>
+        <li class="list">
+          <a href="index.html">
+            <span class="icon">
+              <div class="active">
+                <image src="resource/home_icon.png" style="width:24px"></image>
+              </div>
+            </span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="explore.html">
+            <span class="icon">
+              <div class="inactive">
+                <image src="resource/explore_icon.png" style="width:24px;"></image>
+              </div>
+            </span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="quiz.html">
+            <span class="icon">
+              <div class="inactive">
+                <image src="resource/random_icon.png" style="width:36px"></image>
+              </div>
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+</body>
+<script src ="Home-Page/restaurant_data.js"></script>
+<script src ="Home-Page/restaurant_list.js"></script>
+</html>
