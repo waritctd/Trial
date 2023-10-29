@@ -28,8 +28,25 @@ function collectAnswer(answer) {
         updateProgressBar();
     } else {
         // Quiz is complete
-        alert('Quiz complete. Answers: ' + answers.join(', '));
+        //alert('Quiz complete. Answers: ' + answers.join(', '));
+        alert("Quiz complete. Check out your results!")
+        randomPage();
     }
+}
+
+function randomPage() {
+    // Add html files here and remove restaurant1.html and restaurant2.html
+    var pages = [
+        "Restaurant-Pages/Restaurant1/restaurant.html",
+        "Restaurant-Pages/Restaurant2/restaurant.html",
+        "Restaurant-Pages/Restaurant3/restaurant.html",
+        "Restaurant-Pages/Restaurant4/restaurant.html",
+        "Restaurant-Pages/Restaurant5/restaurant.html",
+        "Restaurant-Pages/Restaurant6/restaurant.html",
+    ];
+    var randomIndex = Math.floor(Math.random() * pages.length);
+    var randomPage = pages[randomIndex];
+    window.location.href = randomPage;
 }
 
 questions.forEach((question, index) => {
