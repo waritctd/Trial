@@ -1,5 +1,3 @@
-<!--This is a comment tag-->
-<!--First, type ! and press enter, which will create some boilerplate code-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,13 +9,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alata&family=Inter&family=Red+Hat+Display:wght@300&family=Roboto&display=swap" rel="stylesheet">
+    <script src="Restaurant-Pages/data.js"></script>
+    <script src="Shopping-Cart Page/cart.js"></script>
+    <script src="Authentication/authentication.js"></script>
 </head>
 
-<body>
-    <!--<h1 style="background-color: aqua;">Hello World</h1>-->
-    <!--<h1 class="aquaElement">Hello world</h1>
-    <h1>Hello world again</h1>-->
-
+<body onload="isSignIn()">
     <div class="main">
         <div class="top">
             <h2 class="name">Restaurant's Name</h2>
@@ -30,7 +27,6 @@
             </button> 
             </a>   
         </div>
-        
         <div class="locationandfee">
             <button class="location">
                 <div class="locationicon">
@@ -46,26 +42,16 @@
                     </svg>
                 </div>
             </button>
-
             <div class="feebox">
                 <h2 class="deliveryfee">Delivery fee:</h2>
                 <h2 class="fee">฿19</h2>
             </div>
-              
-               
         </div>
-
         <h2 class="ordersummary">Order Summary</h2>
         <div class="summary" id="order_list">    
         </div>
-
         <div class="bottom" id="total">
         </div>
-
     </div>
-
-<script src="Restaurant-Pages/data.js"></script>
-<script src="Shopping-Cart Page/cart.js"></script>
 </body>
-
 </html>

@@ -9,10 +9,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lato&display=swap" rel="stylesheet">
+    <script src="Authentication/authentication.js"></script>
   </head>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-<body>
+<body onload="isSignIn()">
   <div class="main">
     <div class="video">
       <video controls loop id='video-player' src="Explore-Page/resource/video1.MP4" class="video_player"></video>

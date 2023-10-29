@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Authentication/authentication.css">
+    <title>Document</title>
+    <script src="Authentication/register_signin.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div id="registration-form" class="form">
+                    <h2>Register</h2>
+                    <label for="register-username">New Username</label>
+                    <input type="text" id="register-username" name="register-username" required>
+                    <label for="register-password">New Password</label>
+                    <input type="password" id="register-password" name="register-password" required>
+                    <button type="submit" onclick="register()">Register</button>
+                    <button type="submit" onclick="location.href='login.html'">Log In</button>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
