@@ -21,7 +21,6 @@ body, h2, label, input, button, a {
     place-items: center;
   }
   
-  /* Style the registration form container */
   .form {
     background-color: #fff;
     border: 1px solid #ddd;
@@ -29,11 +28,20 @@ body, h2, label, input, button, a {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     text-align: center;
-    width: 300px;
+    height: 856px;
+    width:100%;
   }
-  
+
+  .main{
+    position: relative;
+    width:100%;
+    max-width: 390px;
+    border-radius: 14px;
+    overflow: hidden;
+  }
   /* Style the h2 heading */
   h2 {
+    margin-top: 60%;
     font-size: 24px;
     margin-bottom: 20px;
     color: #333;

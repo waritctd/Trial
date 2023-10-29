@@ -24,7 +24,7 @@ function register() {
         alert("Username or password cannot be blank. Please enter a valid username or password.");
     } else if (users.some(u => u.username === newUsername)) {
         alert("Username is already taken. Please choose another one.");
-        window.location.href = "signin.html";
+        window.location.href = "login.html";
     } else {
         users.push({ username: newUsername, password: newPassword });
         console.log('auth:', auth); 
