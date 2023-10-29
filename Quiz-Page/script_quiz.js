@@ -28,8 +28,21 @@ function collectAnswer(answer) {
         updateProgressBar();
     } else {
         // Quiz is complete
-        alert('Quiz complete. Answers: ' + answers.join(', '));
+        //alert('Quiz complete. Answers: ' + answers.join(', '));
+        alert("Quiz complete. Check out your results!")
+        randomPage();
     }
+}
+
+function randomPage() {
+    // Add html files here and remove restaurant1.html and restaurant2.html
+    var pages = [
+        "restaurant1.html",
+        "restaurant2.html",
+    ];
+    var randomIndex = Math.floor(Math.random() * pages.length);
+    var randomPage = pages[randomIndex];
+    window.location.href = randomPage;
 }
 
 questions.forEach((question, index) => {
