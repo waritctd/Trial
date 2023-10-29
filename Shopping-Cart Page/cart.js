@@ -75,7 +75,7 @@ let TotalAmount = () => {
             <h2 class="money">฿ ${amount}</h2>
             <a id="confirm-button" class="confirm" href="Shopping-Cart Page/finish.html">Confirm</a>
         `;
-        
+
     } else {
         total.innerHTML = `
         <h2 class="total">Total</h2>
@@ -91,11 +91,10 @@ TotalAmount();
 
 document.addEventListener("DOMContentLoaded", function() {
     let confirmButton = document.getElementById("confirm-button"); 
-    
+
     if (confirmButton) {
         confirmButton.addEventListener("click", function() {
             localStorage.clear();
         });
     }
 });
-
