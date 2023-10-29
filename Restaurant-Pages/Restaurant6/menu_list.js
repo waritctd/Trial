@@ -3,7 +3,7 @@ let menu_list = document.getElementById("menu_list")
 let basket = JSON.parse(localStorage.getItem("data")) || []
 
 let generateShop =()=>{
-    return (menu_list.innerHTML= menuItemsData.slice(0, 8).map((menu_display)=>{
+    return (menu_list.innerHTML= menuItemsData.slice(38, 44).map((menu_display)=>{
         let {id, name, price, img} = menu_display;
         let search = basket.find((x) => x.id === id) || [] ;
         return `

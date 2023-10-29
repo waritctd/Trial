@@ -37,8 +37,12 @@ function collectAnswer(answer) {
 function randomPage() {
     // Add html files here and remove restaurant1.html and restaurant2.html
     var pages = [
-        "restaurant1.html",
-        "restaurant2.html",
+        "Restaurant-Pages/Restaurant1/restaurant.html",
+        "Restaurant-Pages/Restaurant2/restaurant.html",
+        "Restaurant-Pages/Restaurant3/restaurant.html",
+        "Restaurant-Pages/Restaurant4/restaurant.html",
+        "Restaurant-Pages/Restaurant5/restaurant.html",
+        "Restaurant-Pages/Restaurant6/restaurant.html",
     ];
     var randomIndex = Math.floor(Math.random() * pages.length);
     var randomPage = pages[randomIndex];

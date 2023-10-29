@@ -278,6 +278,7 @@ body{
   line-height: normal;
 }
 
+
 .restaurant_card_type1 {
   display: flex;
   width: 182px;
@@ -290,7 +291,6 @@ body{
   left: 0;
   border-radius: 18px;
   box-shadow: 0px 4px 4px #00000040;
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 60%),url(img/frame-9.png);
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -306,7 +306,6 @@ body{
   left: 196px;
   border-radius: 18px;
   box-shadow: 0px 4px 4px #00000040;
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 60%),url(img/frame-34.png);
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -323,7 +322,6 @@ body{
   left: 0;
   border-radius: 18px;
   box-shadow: 0px 4px 4px #00000040;
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 60%),url(img/frame-37.png);
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -340,7 +338,6 @@ body{
   left: 182px;
   border-radius: 18px;
   box-shadow: 0px 4px 4px #00000040;
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 60%),url(img/frame-36.png);
   background-size: cover;
   background-position: 50% 50%;
 }
