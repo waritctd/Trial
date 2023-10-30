@@ -1,26 +1,16 @@
-body {
-  background-color: black;
-  height: 100vh;
-  display: grid;
-  place-items: center;
-}
+
 
 label {
   display: block;
   margin-top: 5px;
 }
 
-.main{
-  position: absolute;
-  height: 86.4%;
-  width: 390px;
-  overflow: scroll;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-}
-
-::-webkit-scrollbar {
-  display: none;
+body{
+  background: black;
+  color: white;
+  height: 100vh;
+  display: grid;
+  place-items: center;
 }
 
 .extra{
@@ -29,9 +19,25 @@ label {
   width: 100%;
   max-width: 390px;
   border-radius: 14px;
-  background-color: #F7F7F7;
+  background: white;
+  color: black;
+  overflow-x: hidden;
 }
 
+.main{
+  position: relative;
+  height: 856px;
+  width:100%;
+  max-width: 390px;
+  border-radius: 14px;
+  overflow: scroll;
+  overflow-x: hidden;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
 
 .status-bar {
   position: absolute;
