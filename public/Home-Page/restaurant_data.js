@@ -17,7 +17,7 @@ let restaurantsData = [
     },
     {
         id: "restaurant3",
-        name: "Pao Pao Cha Thai",
+        name: "Pao Pao\nCha Thai",
         rating: 4.3,
         img: "Restaurant-Pages/Restaurant3/img/header.jpg",
         href: "Restaurant-Pages/Restaurant3/restaurant.html"
