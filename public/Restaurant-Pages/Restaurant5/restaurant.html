@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CozyBean Café</title>
+    <link rel="stylesheet" type="text/css" href="style_restaurant.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-oJB8lHs1BJt3fE0C/jcEMHR8GgKgEd9zWwjDlUj0XYVtDrMFO1pIIcvlkL+JFqtkl" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Inter:wght@400;700&family=Lato&family=Nunito&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class='extra'>
+        <div class="main" id="restaurant_details">
+            <a href="../../index.html"><button class="home-button">&#8962;</button></a>
+            <div>
+                <div class="image-container">
+                    <button class="reload" style="border:none;" onclick="randomPage()">&#8635;</button>
+                    <img src="img/Header.jpg" alt="CozyBean Café" class="round">
+
+                </div>
+            </div>
+            <div class="text-container">
+                <p class="name">CozyBean Café</p>
+                <p class="detial">CozyBean Café is a warm and inviting coffee haven, where the aroma of freshly brewed beans mingles with the comfort of your favorite nook, offering a tranquil escape for coffee lovers in Thailand.</p>
+            </div>
+            <p class="menu-head">
+                Recommended Menu
+            </p><br>
+            <div class="menu-container" id="menu_list">
+            </div>
+            <div class="cart-count" id="cartAmount">0</div>
+            <a href="../../summary.html"><img src="img/shopping-cart-icon.png" class="shopping-cart"></img></a>
+        </div>
+    </div>
+</body>
+<script src="../data.js"></script>
+<script src="menu_list.js"></script>
+<script src="random.js"></script>
+</html>

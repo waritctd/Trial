@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="Authentication/authentication.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="Authentication/register_signin.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div id="login-form" class="form">
+                <h2>Login</h2>
+                <label for="login-username">Username</label>
+                <input type="text" id="login-username" name="login-username" required>
+                <label for="login-password">Password</label>
+                <input type="password" id="login-password" name="login-password" required>
+                <button type="submit" onclick="login()">Log In</button>
+                <br>
+                <button type="submit" onclick="location.href='registration.html'">Register</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
