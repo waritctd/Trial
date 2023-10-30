@@ -271,9 +271,10 @@ button.reload {
 
 @media screen and (max-width: 768px) {
     .shopping-cart {
-        right: 15%; 
+        right: 9%; 
     }
     .cart-count {
         right: 17%;
     }
 }
+
