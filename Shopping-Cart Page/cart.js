@@ -95,7 +95,8 @@ document.addEventListener('DOMContentLoaded', function () {
     if (confirmButton) {
       confirmButton.addEventListener('click', function () {
         const orderData = {
-            userInfo: JSON.parse(localStorage.getItem("data")) || [],
+            userInfo: JSON.parse(localStorage.getItem("shipping")) || [],
+            
             data: basket, 
         };
   
