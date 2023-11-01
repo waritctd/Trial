@@ -267,6 +267,14 @@ button.reload {
 }
 
 /* Add a class to the home button for styling */
+@media screen and (max-width: 768px) {
+    .shopping-cart {
+        right: 15%; 
+    }
+    .cart-count {
+        right: 17%;
+    }
+}
 
 
 @media screen and (max-width: 768px) {
